@@ -92,7 +92,7 @@ def plot_results(iq, result):
 if __name__ == "__main__":
 
     #iq = np.load("ble_gfsk_iq.npy")
-    iq = np.load("saved_iq.npy")
+    iq = np.load("qpsk_iq.npy")
 
     result = costas_loop_bpsk(iq, FS, FC)
 
